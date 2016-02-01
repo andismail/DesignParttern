@@ -1,2 +1,2 @@
 # DesignParttern
-23 design pattern pratice
+23 design pattern practice
