@@ -7,9 +7,11 @@ import com.jthan.design.strategy.behavior.Quack;
  * Created by Administrator on 2016/2/2.
  */
 public abstract class ParentDuck {
-     Fly fly;
-     Quack quack;
+    //引用行为接口，同时对于一个类来说，意思是鸭子有这两个行为
+    Fly fly;
+    Quack quack;
 
+    //具体行为由其子类实现
     public void setFly(Fly fly) {
         this.fly = fly;
     }

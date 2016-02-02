@@ -1,7 +1,7 @@
 package com.jthan.design.strategy.behavior;
 
 /**
- * Created by Administrator on 2016/2/2.
+ * behavior interface
  */
 public interface Fly {
     void fly();
